@@ -86,3 +86,67 @@ button:hover {
     background-color: #346932;
     font-size: 15px;
 }
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .image {
+        background-image: url(../images/image-product-mobile.jpg);
+        background-position: center;
+        background-size: cover;
+        width: 350px;
+        height: 300px;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .description {
+        width: 350px;
+        height: 440px;
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    button {
+        width: 300px;
+    }
+}
+
+@media (max-width: 425px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .image {
+        background-image: url(../images/image-product-mobile.jpg);
+        background-position: center;
+        background-size: cover;
+        width: 250px;
+        height: 200px;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .description {
+        width: 250px;
+        height: 335px;
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    span {
+        font-size: 10px;
+        letter-spacing: 8px;
+    }
+
+    h1 {
+        font-size: 24px;
+        line-height: 25px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    button {
+        width: 200px;
+    }
+}
